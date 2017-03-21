@@ -1,0 +1,13 @@
+@echo off
+set FileName=%1%
+for %%a in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
+  if exist %%a:\ (
+    pushd %%a:\
+    for /r %%b in (*%FileName%) do (
+      if /i "%%~nxb" equ "%FileName%" (
+        echo,%%b
+      )
+    )
+    popd
+  )
+)
