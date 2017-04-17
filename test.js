@@ -1,1 +1,2 @@
-alert(11111111111111111)
+<script src=''></script>
+<script src=''></script>
